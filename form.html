@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="images/tech academy.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- logo text -->
+    <header class="header">
+       <a href="index.html" class="logo">PROF<span>/</span>LE CARD</a>
+       <nav class="navbar">
+        <!-- nav bar -->
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="form.html">form</a></li>
+          <li><a href="table.html">table</a></li>
+        </ul>
+       </nav>
+       <audio src="audio/podcast.m4a" controls loop autoplay></audio>
+    </header>
+
+    <section class="cover">
+        <section class="form">
+           <h1>MY DETAILS..</h1>
+            <hr>
+        <form action="/action_page.php">
+          <label for="fname">NAME</label>
+          <input id="fname" type="text" placeholder="Full Name" required>
+          <label>EMAIL</label>
+          <input type="email" placeholder="Email -eg. xux@gmail.com" required>
+          <label>PHONE number</label>
+          <input type="number" placeholder="Phone Number" required>
+          <label>LEARNING TRACK</label><br>
+          <input type="radio" id="frontend" name="fav_language" value="frontend">
+          <label for="male">frontend engineering</label><br>
+          <input type="radio" id="backend" name="fav_language" value="backend">
+          <label for="female">backend engineering</label><br>
+          <label for="img">upload file:</label>
+          <input type="file" id="img" name="img" accept="image/*">
+          <label>PASSWORD</label>
+          <input type="password" placeholder="Password" required>
+        </form>
+          <!-- <button><input type="submit" value="submit"></button> -->
+          <button>Submit</button>
+        </section>
+    </section>
+
+
+
+     <!-- footer -->
+    <footer class="footer">
+        <p>Any <span>imposibility</span> has a posibity in it...</p>
+    </footer>
+
+</body>
+</html>
